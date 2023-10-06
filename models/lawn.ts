@@ -1,4 +1,5 @@
 import * as z from "zod";
+
 import { Lawn } from "../types";
 
 const LawnSchema = z.object({
@@ -11,7 +12,6 @@ export function createLawn(input: string[]): Lawn {
     lawnWidth: parseInt(input[0], 10),
     lawnHight: parseInt(input[1], 10),
   });
-  const b=3
   return {
     lawnWidth,
     lawnHight,

@@ -1,4 +1,5 @@
 import * as z from "zod";
+
 import { CardinalDirection, Mower } from "../types";
 
 const LawnMowerSchema = z.object({
@@ -13,7 +14,6 @@ export function createLawnMower(input: string[]): Mower {
     yPosition: parseInt(input[1], 10),
     cardinalDirection: CardinalDirection[input[2]],
   });
-  const a=5
     return {
     xPosition,
     yPosition,

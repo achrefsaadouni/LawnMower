@@ -14,6 +14,7 @@ export function createLawnMower(input: string[]): Mower {
     cardinalDirection: CardinalDirection[input[2]],
   });
   const a=5
+  const hjk=8
     return {
     xPosition,
     yPosition,

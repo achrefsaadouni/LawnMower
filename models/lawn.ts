@@ -11,6 +11,7 @@ export function createLawn(input: string[]): Lawn {
     lawnWidth: parseInt(input[0], 10),
     lawnHight: parseInt(input[1], 10),
   });
+  const b=3
   return {
     lawnWidth,
     lawnHight,

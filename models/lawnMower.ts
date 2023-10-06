@@ -13,7 +13,8 @@ export function createLawnMower(input: string[]): Mower {
     yPosition: parseInt(input[1], 10),
     cardinalDirection: CardinalDirection[input[2]],
   });
-  return {
+  const a=5
+    return {
     xPosition,
     yPosition,
     cardinalDirection,

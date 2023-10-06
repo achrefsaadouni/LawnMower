@@ -14,6 +14,11 @@ export function createLawnMower(input: string[]): Mower {
     yPosition: parseInt(input[1], 10),
     cardinalDirection: CardinalDirection[input[2]],
   });
+<<<<<<< HEAD
+  const a=5
+  const hjk=8
+=======
+>>>>>>> 513622e1e7d292e2579e59122ce1471d300f0e33
     return {
     xPosition,
     yPosition,
